@@ -1,0 +1,15 @@
+schema_version: 1
+repository: workforce-optimization-and-analytics
+role: umbrella
+axis: problem-class
+area: workforce
+status: active
+owner: jorsacademy
+projects:
+  - call-center-workforce-optimization
+  - hybrid-personnel-scheduling-staff-rostering
+  - optimal-conference-meeting-scheduling-cp-sat
+conventions:
+  provenance_records: true
+  reproducibility_expected: true
+  benchmark_assumptions_documented: true
