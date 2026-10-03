@@ -8,6 +8,7 @@ This repository is the primary umbrella repository for this Jors Academy researc
 ### Included projects
 
 - [`call-center-workforce-optimization`](projects/call-center-workforce-optimization/)
+- [`service-systems-and-queueing`](projects/service-systems-and-queueing/) — Erlang C capacity planning, service levels and M/M/s simulation validation
 - [`hybrid-personnel-scheduling-staff-rostering`](projects/hybrid-personnel-scheduling-staff-rostering/)
 - [`optimal-conference-meeting-scheduling-cp-sat`](projects/optimal-conference-meeting-scheduling-cp-sat/)
 
