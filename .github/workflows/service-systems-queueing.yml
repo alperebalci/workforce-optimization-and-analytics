@@ -1,14 +1,12 @@
 name: Service Systems and Queueing
 
+# Required baseline runs on each main commit and every pull request.
+# Path-scoped workflows may remain as additional specialized checks.
 on:
   push:
-    paths:
-      - 'projects/service-systems-and-queueing/**'
-      - '.github/workflows/service-systems-queueing.yml'
+    branches: [main]
   pull_request:
-    paths:
-      - 'projects/service-systems-and-queueing/**'
-      - '.github/workflows/service-systems-queueing.yml'
+  workflow_dispatch:
 
 jobs:
   test:
