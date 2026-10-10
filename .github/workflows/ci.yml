@@ -1,15 +1,11 @@
 name: or-workforce-ci
 
+
 on:
   push:
     branches: [main]
-    paths:
-      - "productivity/garment-workforce-planning/**"
-      - ".github/workflows/ci.yml"
   pull_request:
-    paths:
-      - "productivity/garment-workforce-planning/**"
-      - ".github/workflows/ci.yml"
+  workflow_dispatch:
 
 permissions:
   contents: read
